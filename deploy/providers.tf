@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "rg-soat-bc22-xxx-dev-fr"
-    storage_account_name = "xxxsoatbc22devfr"
+    resource_group_name  = "rg-soat-bc22-sk2-dev-fr"
+    storage_account_name = "skusoatbc22devfr"
     container_name       = "terraform"
     key                  = "terraform.tfstate"
   }
